@@ -236,7 +236,7 @@ if( ! function_exists('mfn_content_portfolio') ){
 								// style: All | Photo ---------------------------------------------
 								$output .= '<div class="image_frame scale-with-grid">';
 									$output .= '<div class="image_wrapper">';		
-										$output .= mfn_post_thumbnail( get_the_ID(), 'portfolio', $style );
+										$output .= mfn_post_thumbnail( get_the_ID(), 'portfolio', 300, 560, $style );
 									$output .= '</div>';
 								$output .= '</div>';
 				

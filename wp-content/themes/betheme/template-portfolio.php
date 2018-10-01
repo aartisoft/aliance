@@ -67,7 +67,7 @@ $translate[ 'item-all' ] 	= mfn_opts_get( 'translate' ) ? mfn_opts_get( 'transla
 				<div class="wrap mcb-wrap one  column-margin-0px valign-middle clearfix" style="padding:50px 0px">
 					<div class="mcb-wrap-inner">
 						<div class="column mcb-column one column_visual ">
-							<h1>QUEM SOMOS</h1>
+							<h1>GALERIA</h1>
 						</div>
 					</div>
 				</div>

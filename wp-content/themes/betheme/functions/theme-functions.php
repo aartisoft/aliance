@@ -77,16 +77,16 @@ if( ! function_exists( 'mfn_add_image_size' ) )
 			 *
 			 * TODO: SIZE too big? (use cover/width 100%? ipad?)
 			 */
-			add_image_size( 'portfolio-mf', 	1280, 1000, true );
-			add_image_size( 'portfolio-mf-w',   1280, 500,  true );	/* Wide */
-			add_image_size( 'portfolio-mf-t',   768,  1200, true );	/* Tall	*/
+			add_image_size( 'portfolio-mf', 	1024, 1911, true );
+			add_image_size( 'portfolio-mf-w',   1024, 1911, true );	/* Wide */
+			add_image_size( 'portfolio-mf-t',   1024, 1911, true );	/* Tall	*/
 
 			/*
 			 * Portfolio | Style: List
 			 *
 			 * TODO: Verify proportions (? size)
 			 */
-			add_image_size( 'portfolio-list', 	1920, 750,  true );
+			add_image_size( 'portfolio-list', 	1024, 1911,  true );
 
 
 		// Blog & Portfolio | Dynamic sizes -------------------
@@ -96,8 +96,8 @@ if( ! function_exists( 'mfn_add_image_size' ) )
 			 *
 			 * TODO: DEFAULT HEIGHT/PROPORTIONS - FOR VERIFICATION
 			 */
-			$archivesW = mfn_opts_get( 'featured-blog-portfolio-width', 960 );
-			$archivesH = mfn_opts_get( 'featured-blog-portfolio-height', 750 );
+			$archivesW = mfn_opts_get( 'featured-blog-portfolio-width', 1024 );
+			$archivesH = mfn_opts_get( 'featured-blog-portfolio-height', 1911 );
 
 			$archivesC = mfn_opts_get( 'featured-blog-portfolio-crop', 'crop' );
 			$archivesC = ( $archivesC == 'resize' ) ? false : true;
@@ -109,8 +109,8 @@ if( ! function_exists( 'mfn_add_image_size' ) )
 			 *
 			 * TODO: DEFAULT HEIGHT/PROPORTIONS - FOR VERIFICATION
 			 */
-			$singleW = mfn_opts_get( 'featured-single-width', 1200 );
-			$singleH = mfn_opts_get( 'featured-single-height', 480 );
+			$singleW = mfn_opts_get( 'featured-single-width', 1024 );
+			$singleH = mfn_opts_get( 'featured-single-height', 1911 );
 
 			$singleC = mfn_opts_get( 'featured-single-crop', 'crop' );
 			$singleC = ( $singleC == 'resize' ) ? false : true;
